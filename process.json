@@ -1,0 +1,16 @@
+{
+  "apps" : [{
+    "script"      : "app.js",
+    "watch"       : true,
+    "ignore_watch" : ["node_modules"],
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "env": {
+      "NODE_ENV": "dev",
+    },
+    "env_production" : {
+       "NODE_ENV": "prod"
+    }
+  }]
+}
