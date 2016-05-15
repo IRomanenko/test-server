@@ -8,7 +8,7 @@ var http = require('http'),
 
 http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('<h1>It is alive!!</h1>\n');
+  res.end('<h1>It is alive!!!</h1>\n');
 }).listen(config.port, config.ip);
 
 console.log(`Server running on port ${config.port}.`);
